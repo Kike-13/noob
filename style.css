@@ -1,0 +1,73 @@
+/* Estilos generales y fondo colorido */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ff5e62;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Contenedor principal */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .envelope-section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Ajustar la imagen del mensaje dentro del fondo blanco */
+  #birthdayImage {
+    max-width: 100%;  /* La imagen no será más grande que el contenedor */
+    height: auto;      /* Mantiene la proporción */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    display: none;      /* Ocultar hasta que se haga clic en el sobre */
+    margin-top: 15px;
+  }
+  
+  
+  .envelope-container {
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Mensaje oculto */
+  .hidden {
+    display: none;
+    font-size: 1.5rem;
+    color: #ff5e62;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #ff5e62;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
